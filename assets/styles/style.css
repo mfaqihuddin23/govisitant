@@ -5,11 +5,16 @@ section {
     top: 0;
     left: 0;
     color:white;
-    background-color: black;
+    background-color: #B28A70;
+    background-repeat: no-repeat;
+    background-position: center;
     visibility: hidden;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
   }
   section.active {
     visibility: visible;
+  }
+  .container{
+    max-width: 1320px;
   }
