@@ -1,20 +1,58 @@
+@font-face {
+  font-family: 'Cormorant_Garamond';
+  src: url('../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf');
+}
+@font-face {
+  font-family: 'Cormorant_Garamond';
+  src: url('../fonts/Cormorant_Garamond/CormorantGaramond-BoldItalic.ttf');
+}
+
+.header-title {
+  padding-top: 309px;
+}
+.our-story{
+  text-align: left;
+}
+
+h1{
+  font-family: Cormorant Garamond;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100%;
+  /* identical to box height, or 100px */
+  text-align: center;
+  color: #000000;
+}
+h2{
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 100%;
+  /* identical to box height, or 100px */
+  text-align: center;
+  color: #000000;
+}
+
 section {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color:white;
-    background-color: #B28A70;
-    background-repeat: no-repeat;
-    background-position: center;
-    visibility: hidden;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-  section.active {
-    visibility: visible;
-  }
-  .container{
-    max-width: 1320px;
-  }
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color:white;
+  background-color: #B28A70;
+  background-repeat: no-repeat;
+  background-position: center;
+  visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+section.active {
+visibility: visible;
+}
+
+.container{
+  max-width: 1320px;
+}
