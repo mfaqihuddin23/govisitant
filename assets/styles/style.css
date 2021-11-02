@@ -31,8 +31,20 @@ h2{
   font-size: 100px;
   line-height: 100%;
   /* identical to box height, or 100px */
-  text-align: center;
   color: #000000;
+}
+
+.pages-num{
+  background: url('../images/line-page.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  width: 26px;
+  height: 144px;
+  color: #000000;
+  position: absolute;
+  top: 350px;
 }
 
 section {
@@ -44,7 +56,8 @@ section {
   color:white;
   background-color: #B28A70;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
+  /* background-size: cover; */
   visibility: hidden;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
