@@ -47,6 +47,13 @@ h2{
   top: 350px;
 }
 
+.feature-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 section {
   width: 100vw;
   height: 100vh;
@@ -75,12 +82,12 @@ visibility: visible;
   background-color: #C4C4C4;
   width: 270px;
   height: 270px;
+  border-radius: 200px;
 }
 
 .white{
   color: #fff;
 }
-
 
 .lockedcont{
   max-width: 1440px;
