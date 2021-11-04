@@ -13,6 +13,13 @@
 .our-story{
   text-align: left;
 }
+.white-text{
+  color: white !important;
+}
+.animrun{
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
 
 h1{
   font-family: Cormorant Garamond;
@@ -33,6 +40,30 @@ h2{
   /* identical to box height, or 100px */
   color: #000000;
 }
+h3{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  /* identical to box height, or 34px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+p.p20{
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+  text-align: center;
+  color: #444444;
+}
+
+
 
 .pages-num{
   background: url('../images/line-page.svg');
@@ -83,10 +114,6 @@ visibility: visible;
   width: 270px;
   height: 270px;
   border-radius: 200px;
-}
-
-.white{
-  color: #fff;
 }
 
 .lockedcont{

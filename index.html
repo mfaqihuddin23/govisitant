@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Local CSS  -->
     <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- animate CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <title>Go Visitant</title>
   </head>
@@ -16,7 +18,7 @@
   <body>
     <section data-section="0" class="active" style="background-image: url('assets/images/Sect0-bg.png');">
         <div class="container">
-            <div class="header-title text-center">
+            <div class="header-title text-center animrun" id="animtitle">
               <h1>A REAL TURN UP<img src="assets/images/line.svg" alt=""></h1>
               <h2><img src="assets/images/line.svg" alt="">FOR THE BOOKS</h1>
             </div>
@@ -29,7 +31,7 @@
     </section>
     <section data-section="1" style="background-image: url('assets/images/sect1-bg.png">
       <div class="container">
-        <div class="row">
+        <div class="row animrun">
           <div class="col-8">
             <div class="our-story">
               <h2>Our Story/</h2>
@@ -65,42 +67,87 @@
           <div class="col-4">
             <div class="feature-wrap">
               <div class="circle-item"></div>
-              <h3 class="white text-center">Fully customisable virtual Guestbook</h3>
-              <p class="p20 text-center">Create a comprehensive guide which is unique to your property, without the need for printing, for use by your guests on the go. </p>
+              <h3 class="white-text">Fully customisable virtual Guestbook</h3>
+              <p class="p20 white-text">Create a comprehensive guide which is unique to your property, without the need for printing, for use by your guests on the go. </p>
             </div>
           </div>
           <div class="col-4">
             <div class="feature-wrap">
               <div class="circle-item"></div>
-              <h3 class="white text-center">Additional Legal Protection</h3>
-              <p class="p20 text-center">Save time by activating an automated link between your booking site, and your guestbook, to enable automatic issuing to your guests prior to arrival. </p>
+              <h3 class="white-text">Additional Legal Protection</h3>
+              <p class="p20 white-text">Save time by activating an automated link between your booking site, and your guestbook, to enable automatic issuing to your guests prior to arrival. </p>
             </div>
           </div>
           <div class="col-4">
             <div class="feature-wrap">
               <div class="circle-item"></div>
-              <h3 class="white text-center">Fully customisable virtual Guestbook</h3>
-              <p class="p20 text-center">Legally binding Terms and Conditions provided to give you, and your property, an extra layer of support.</p>
+              <h3 class="white-text">Fully customisable virtual Guestbook</h3>
+              <p class="p20 white-text">Legally binding Terms and Conditions provided to give you, and your property, an extra layer of support.</p>
             </div>
           </div>
         </div>
       </div>
       <div class="container lockedcont">
-        <div class="pages-num white">
+        <div class="pages-num white-text">  
           <h5 class="numpag">03</h5>
         </div>
       </div>
     </section>
-    <!-- <section data-section="3">
+    <section data-section="3">
       <div class="container">
-        <div>
-          <h2>Hello! I'm the fourth section!</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="feature-wrap">
+              <div class="circle-item"></div>
+              <h3>Interactive map</h3>
+              <p class="p20">Add local amenities to the map to enable your guests to see what is available in the local area</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="feature-wrap">
+              <div class="circle-item"></div>
+              <h3>Deposit</h3>
+              <p class="p20">Set your own deposit level, automatically returned to your guests 24 hours after departure.</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="feature-wrap">
+              <div class="circle-item"></div>
+              <h3>LIVE CHAT</h3>
+              <p class="p20">Keep all of your conversations with guests in one place</p>
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="feature-wrap">
+              <div class="circle-item"></div>
+              <h3>SMS reminders</h3>
+              <p class="p20">complimentary, automated SMS reminders for both you and your guests</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="feature-wrap">
+              <div class="circle-item"></div>
+              <h3>What Three Words</h3>
+              <p class="p20">keeping location clear, precise and simple</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="feature-wrap">
+              <div class="circle-item"></div>
+                <h3>Insurance Quotation </h3>
+                <p class="p20">preferred insurance broker for competitive pricing</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container lockedcont">
         <div class="pages-num">
           <h5 class="numpag">04</h5>
         </div>
       </div>
-    </section> -->
+    </section>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
