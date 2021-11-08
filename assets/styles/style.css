@@ -13,6 +13,14 @@
 .our-story{
   text-align: left;
 }
+.white-text{
+  color: white !important;
+}
+.animrun{
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-play-state: running, running, running, running;
+}
 
 h1{
   font-family: Cormorant Garamond;
@@ -31,8 +39,51 @@ h2{
   font-size: 100px;
   line-height: 100%;
   /* identical to box height, or 100px */
-  text-align: center;
   color: #000000;
+}
+h3{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  /* identical to box height, or 34px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+p.p20{
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+  text-align: center;
+  color: #444444;
+}
+
+
+
+.pages-num{
+  background: url('../images/line-page.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  width: 26px ;
+  height: 144px;
+  color: #000000;
+  position: absolute;
+  top: 350px;
+}
+
+.feature-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
@@ -43,8 +94,9 @@ section {
   left: 0;
   color:white;
   background-color: #B28A70;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100%;
   visibility: hidden;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -53,6 +105,18 @@ section.active {
 visibility: visible;
 }
 
-.container{
-  max-width: 1320px;
+.flexflex{
+  display: flex;
+  align-content: center;
+}
+
+.circle-item{
+  background-color: #C4C4C4;
+  width: 270px;
+  height: 270px;
+  border-radius: 200px;
+}
+
+.lockedcont{
+  max-width: 1440px;
 }
