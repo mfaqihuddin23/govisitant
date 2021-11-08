@@ -21,6 +21,11 @@
   animation-duration: 2s; /* don't forget to set a duration! */
   animation-play-state: running, running, running, running;
 }
+.animrun2{
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-play-state: running, running, running, running;
+}
 
 h1{
   font-family: Cormorant Garamond;
